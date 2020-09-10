@@ -1,3 +1,8 @@
 #top-10 {
     padding-top: 50px;
 }
+
+#item-creation .card {
+    width: 50%;
+    margin: 0 auto;
+}
