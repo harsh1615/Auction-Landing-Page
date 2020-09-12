@@ -1,0 +1,17 @@
+#top-10 {
+  padding-top: 50px;
+}
+
+.fa-trash {
+  cursor: pointer;
+}
+#item-creation .card {
+  width: 50%;
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  #item-creation .card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
