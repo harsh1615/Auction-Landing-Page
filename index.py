@@ -6,5 +6,14 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/creation')
+def creation():
+	return render_template('creation.html')
+
+@app.route('/wishlist')
+def wishlist():
+	return render_template('watchlist.html')
+
+
 if __name__ == '__main__':
     app.run()
