@@ -14,6 +14,10 @@ def creation():
 def wishlist():
 	return render_template('watchlist.html')
 
+@app.route('/product/<id>')
+def product(id):
+    return render_template('item.html')
+
 
 if __name__ == '__main__':
     app.run()
